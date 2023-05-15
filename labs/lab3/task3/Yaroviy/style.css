@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+}
+
+.main{
+position: relative;
+width: 1920px;
+height: 1516px;
+
+background: #FFFFFF;
+}
+
+.header {
+position: absolute;
+width: 1283px;
+height: 462px;
+left: 319px;
+top: 87px;
+
+background: #3A3A3A;
+}
+img{
+position: absolute;
+width: 477px;
+height: 253px;
+left: 790px;
+top: 104px;
+}
+
+h2 {
+    /* ЕФЕКТИВНІ МЕТОДИ НАВЧАННЯ */
+
+
+position: absolute;
+width: 300px;
+height: 19px;
+left: 507px;
+top: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+h3 {
+position: absolute;
+width: 379px;
+height: 29px;
+left: 452px;
+top: 38px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+
+color: #FF9900;
+}
+h4 {
+    position: absolute;
+width: 572px;
+height: 57px;
+left: 48px;
+top: 95px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+h5{
+position: absolute;
+width: 572px;
+height: 263px;
+left: 48px;
+top: 171px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.hbutton{
+	position: absolute;
+width: 240px;
+height: 59px;
+left: 790px;
+top: 375px;
+
+background: #FAFF00;
+border-radius: 10px;
+}
+
+h6{
+position: absolute;
+width: 89px;
+height: 19px;
+left: 75px;
+top: 20px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.courses{
+position: absolute;
+width: 1283px;
+height: 410px;
+left: 319px;
+top: 549px;
+}
+
+top_1  {
+position: absolute;
+width: 270px;
+height: 19px;
+left: 508px;
+top: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #0085FF;
+}
+top_2  {
+position: absolute;
+width: 464px;
+height: 29px;
+left: 406px;
+top: 41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #000000;
+}
+
+
+.javaimg{
+position: absolute;
+width: 35px;
+height: 36px;
+left: 106px;
+top: 93px;
+}
+
+.jsimg{
+position: absolute;
+width: 35px;
+height: 33px;
+left: 450px;
+top: 91px;
+}
+
+.pyimg{
+position: absolute;
+width: 37px;
+height: 38px;
+left: 793px;
+top: 87px;
+}
+
+.qaimg{
+position: absolute;
+width: 34px;
+height: 36px;
+left: 1137px;
+top: 88px;
+}
+
+.java{
+	box-sizing: border-box;
+
+position: absolute;
+width: 250px;
+height: 144px;
+left: 0px;
+top: 112px;
+
+border: 1px solid #85B7D3;
+border-radius: 10px;
+}
+label_1{
+	position: absolute;
+width: 122px;
+height: 58px;
+left: 63px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #247AFB;
+}
+.details_1{
+	position: absolute;
+width: 246px;
+height: 40px;
+left: 0px;
+top: 104px;
+
+background: rgba(0, 133, 255, 0.14);
+border-radius: 10px;
+}
+label_11{
+	position: absolute;
+width: 115px;
+height: 24px;
+left: 66px;
+top: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+}
+
+.js{
+box-sizing: border-box;
+
+position: absolute;
+width: 251px;
+height: 144px;
+left: 341px;
+top: 111px;
+
+border: 1px solid #85B7D3;
+border-radius: 10px;
+}
+label_2{
+position: absolute;
+width: 153px;
+height: 58px;
+left: 48px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #247AFB;
+}
+.details_2{
+position: absolute;
+width: 246px;
+height: 40px;
+left: 0px;
+top: 104px;
+
+background: rgba(0, 133, 255, 0.14);
+border-radius: 10px;
+}
+label_12{
+position: absolute;
+width: 115px;
+height: 24px;
+left: 66px;
+top: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+}
+
+.py{
+box-sizing: border-box;
+
+position: absolute;
+width: 251px;
+height: 144px;
+left: 685px;
+top: 111px;
+
+border: 1px solid #85B7D3;
+border-radius: 10px;
+}
+label_3{
+position: absolute;
+width: 122px;
+height: 58px;
+left: 63px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #247AFB;
+}
+.details_3{
+position: absolute;
+width: 246px;
+height: 40px;
+left: 0px;
+top: 104px;
+
+background: rgba(0, 133, 255, 0.14);
+border-radius: 10px;
+}
+label_13{
+position: absolute;
+width: 115px;
+height: 24px;
+left: 66px;
+top: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.qa{
+box-sizing: border-box;
+
+position: absolute;
+width: 250px;
+height: 144px;
+left: 1033px;
+top: 112px;
+
+border: 1px solid #85B7D3;
+border-radius: 10px;
+}
+label_4{
+position: absolute;
+width: 169px;
+height: 58px;
+left: 40px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #247AFB;
+}
+.details_4{
+position: absolute;
+width: 246px;
+height: 40px;
+left: 0px;
+top: 104px;
+
+background: rgba(0, 133, 255, 0.14);
+border-radius: 10px;
+}
+label_14{
+position: absolute;
+width: 115px;
+height: 24px;
+left: 66px;
+top: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+}
+
+.final{
+position: absolute;
+width: 1283px;
+height: 389px;
+left: 319px;
+top: 959px;
+
+background: rgba(0, 133, 255, 0.17);
+}
+
+toptext1{
+	position: absolute;
+width: 236px;
+height: 19px;
+left: 704px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+toptext2{
+	position: absolute;
+width: 350px;
+height: 29px;
+left: 652px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #108CFF;
+}
+
+.oktenimg{
+	position: absolute;
+width: 291px;
+height: 163px;
+left: 70px;
+top: 98px;
+}
+
+text1{
+position: absolute;
+width: 274px;
+height: 18px;
+left: 78px;
+top: 289px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+
+.companyimg{
+position: absolute;
+width: 644px;
+height: 159px;
+left: 500px;
+top: 130px;
+}

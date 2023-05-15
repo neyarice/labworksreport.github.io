@@ -1,0 +1,142 @@
+* {box-sizing: border-box; }
+#flex-container 
+{
+	
+	display: flex; 
+	height: 200px;
+	 flex-wrap: wrap;
+ }
+
+#flex-container > div {
+	background: #333538;
+	 
+	 width: 20%;
+	  margin: 0px;
+	   padding: 0px; 
+}
+#flex-container > div:nth-of-type(1) {
+	width: 100%; 
+	height: 50px;
+	 margin: 25px; 
+	 padding: 0px;
+}
+#flex-container > div:nth-of-type(10) {
+	width: 100%;
+	height: 620px;
+	 margin: 25px;
+	 
+	 background-image: url("C:\Users\1\Desktop\women2.png");
+}
+#flex-container > div:nth-of-type(11) {
+	width: 100%; 
+	height: 620px; 
+	background: #FFFFFF;
+
+}
+#flex-container > div:nth-of-type(12) {
+	width: 1550px;
+	 height: 55px; 
+	 margin: 0px;
+	 background: black;
+
+}
+#flex-container > div:nth-of-type(2) {
+	width: 180px;
+	 margin: 25.5px;  
+	 height: 210px;
+}
+#flex-container > div:nth-of-type(3) {
+	width: 180px;
+	 margin: 25.5px;  
+	 height: 210px;
+}
+#flex-container > div:nth-of-type(4) {
+	width: 180px;
+	 margin: 25.5px; 
+	 height: 210px;
+
+	 }
+#flex-container > div:nth-of-type(5) {
+	width: 180px;
+	 margin: 25.5px;  
+	 height: 210px;
+}
+#flex-container > div:nth-of-type(6) {
+	width: 180px;
+	margin: 25.5px;  
+	height: 210px;
+}
+#flex-container > div:nth-of-type(7) {
+	width: 180px;
+	 margin: 25.5px; 
+	 height: 210px;
+}
+#flex-container > div:nth-of-type(8) {
+	width: 180px;
+	 margin: 25.5px; 
+	 height: 210px;
+}
+#flex-container > div:nth-of-type(9) {
+	width: 180px;
+	 margin: 25.5px; 
+	 height: 210px;
+}
+
+h1{
+	margin: 5px;
+font-size: 25pt;
+font-weight: normal;
+text-align: center;
+font-family:Impact, fantasy;
+color: white;
+}
+
+p{
+	font-family:Impact, fantasy;
+	font-size: 15pt;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size:15pt;
+}
+
+h2{
+	margin: 20px;
+font-size: 19pt;
+font-weight: normal;
+text-align: right;
+font-family:Impact, fantasy;
+color: white;
+
+}
+
+h3{
+	font-size: 35pt;
+	color: gray;
+	font-family:Impact, fantasy;
+}
+
+li{
+	
+
+}
+ ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022"; /* юникод точки */
+  color: orange; /* Менять цвет */
+  font-weight: bolder; /* Менять жирность */
+  display: inline-block; /* Расстояние между точкой и текстом */
+  width: 1em; /* Задать значение расстояния */
+}
+
+
+b{
+	font-size: 20px;
+}
+

@@ -53,13 +53,114 @@
         </li>
     </ul>
 </div>
-<div class="labs_field_for_info">
-    <p>
-        <b>Тема: СТРУКТУРА HTML-ДОКУМЕНТА. ВИБІР ПРЕДМЕТНОЇ ГАЛУЗІ. РОБОТА З ПОСИЛАННЯМИ, ТАБЛИЦЯМИ, ЗОБРАЖЕННЯМИ, СПИСКАМИ в HTML-ДОКУМЕНТІ.</b><br>
-        <b>Мета:</b> придбати практичні навички роботи з HTML-документом, таблицями, зображеннями, посиланнями, списками, формами.<br>
-        Створити шаблон звітного HTML-документом для відображення результатів роботи всіх лабораторних робіт.<br>
-        <b>Місце розташування програмного коду веб-застосунку:</b>
-    </p>
+<div class="labs_field_for_info" style="overflow: auto; padding-left: 0%; padding-top: 0%;">
+    
+        <img src="./lab3_task1.jpg" style="width: 100%;">
+    
+        <p style="padding-left: 2%; padding-top: 2%;">
+            HTML код макету:
+        </p>
+
+        <pre>
+
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;title&gt;&lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;title&gt;Restaurant template&lt;/title&gt;
+            &lt;link rel="shortcut icon" type="image/x-icon" href="../assets/icons/rest_ico.ico"&gt;
+            &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+            &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+            &lt;link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Roboto+Slab&family=Ubuntu:ital@1&display=swap" rel="stylesheet"&gt;
+            &lt;link rel="stylesheet" href="./css/mainpage.css"&gt;
+            &lt;/head&gt;
+            &lt;body style = "background-color: #495057;"&gt;
+
+            &lt;div id="main_page_top"&gt;
+            &lt;img src="./assets/pics/logo2.png" id="main_page_top_logo"&gt;
+            &lt;ul id="main_page_text1"&gt;
+                &lt;li style="margin-right: 2vw;" &gt;
+                &lt;a href="" class="main_page_top_pressedbuttons"&gt;Головна&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li style="margin-right: 2vw;" &gt;
+                &lt;a href="menu.html" class="main_page_top_buttons"&gt;Меню&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li style="margin-right: 2vw;" &gt;
+                &lt;a href="reservation.html" class="main_page_top_buttons"&gt;Бронь&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li style="margin-right: 2vw;"&gt;
+                &lt;a href="delivery.html" class="main_page_top_buttons"&gt;Доставка&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                &lt;a href="constacts.html" class="main_page_top_buttons"&gt;Контакти&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div id="main_page_picture_text"&gt;
+            &lt;img src="assets/pics/mainpic3.jpg" id="main_pic1"&gt;
+            &lt;p id="main_text1"&gt;Welcome to &lt;br&gt; Skadi&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div id="main_page_middle"&gt;
+            &lt;img src="assets/pics/mainpic4.jpg" id="main_page_middle_picture"&gt;
+            &lt;p id="main_page_middle_text"&gt;Натхненням для Skadi стало поєднання норвезької культури з найкращими відбірними стравами азійської кухні у поєднанні з нашими коктейлями та вином.
+                &lt;br&gt;Ресторан Skadi ection створює відчуття Умамі між кислим, солоним, солодким, гірким та Умамі. Всі страви засновані на смаку умамі, який "розтікається по язику, покриваючи його".
+                &lt;br&gt;Експерименти зі смаковими зонами язика показали, що солодкий і солоний смаки відчуваються більш інтенсивно на кінчику язика, тоді як умамі відчувається по всьому язику.
+                &lt;br&gt;Skadi запрошує вас відчути смак і атмосферу, щоб ви могли насолодитися нашим дегустаційним меню в повній мірі.
+
+            &lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div id="main_page_bottom"&gt;
+            &lt;img src="assets/pics/mainpic5.jpg" id="main_page_bottom_pic"&gt;
+            &lt;img src="assets/pics/logo3.png" id="main_page_bottom_logo"&gt;
+            &lt;p id="main_page_bottom_contact"&gt;
+                Контактна інформація &lt;br&gt;
+                &lt;br&gt;
+                Email:
+                info@restaurant-skadi.ua &lt;br&gt;
+                &lt;br&gt;
+                Phone:
+                +38(066)666 6666
+            &lt;/p&gt;
+            &lt;p id="main_page_bottom_address"&gt;
+                Адреса &lt;br&gt;
+                &lt;br&gt;
+                Вулиця Артема 61д &lt;br&gt;
+                м.Київ Україна
+
+            &lt;/p&gt;
+            &lt;li id="main_page_bottom_hours"&gt;
+                &lt;ul style="font-weight: bold;"&gt;Години роботи:&lt;/ul&gt;
+                &lt;br&gt;
+                &lt;ul&gt; Понеділок: Зачинено&lt;/ul&gt;
+                &lt;br&gt;
+                &lt;ul&gt; Вівторок: 11:00-00:00&lt;/ul&gt;
+                &lt;br&gt;
+                &lt;ul&gt; Середа: 11:00-00:00&lt;/ul&gt;
+                &lt;br&gt;
+                &lt;ul&gt; Четвер: 11:00-00:00&lt;/ul&gt;
+                &lt;br&gt;
+                &lt;ul&gt; П'ятниця: 13:00-00:00&lt;/ul&gt;
+                &lt;br&gt;
+                &lt;ul&gt; Субота: 13:00-00:00&lt;/ul&gt;
+                &lt;br&gt;
+                &lt;ul&gt; Неділя: 13:00-00:00&lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;/div&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+
+            &lt;/body&gt;
+            &lt;/html&gt;
+
+        </pre>
 </div>
 </body>
 </html>

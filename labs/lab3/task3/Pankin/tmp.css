@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+}
+
+#top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+
+}
+
+.top_buttons {
+
+    padding-top: 1%;
+    text-align: center;
+    font-size: 120%;
+    width: 10%;
+    height: 40%;
+    background-color: black;
+    color: white;
+}
+
+#middle_h {
+    padding-top: 1%;
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    top:10%;
+
+
+}
+
+#middle_top_text {
+    text-align: center;
+}
+
+#orange_middle_text {
+    color: orange;
+    font-size: 130%;
+}
+
+#black_middle_text {
+    font-size: 180%;
+}
+
+#middle_img_text {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    top:2%;
+}
+
+#middle_pic {
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+#middle_list {
+    position: relative;
+    top: -50%;
+    left: 50%;
+    font-size: 120%;
+}
+
+#middle_opacity_java {
+    position: absolute;
+    top:-3%;
+    left: 72%;
+    font-size:800%;
+    opacity: 15%;
+    color:#008DB9;
+}
+
+#middle_pics_o {
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+#middle_pics_i {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#bottom_i {
+    position: absolute;
+    top:150%;
+    width: 100%;
+    height: 80%;
+
+}
+
+#bottom_top_text {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#bottom_main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#bottom_pic {
+    position: relative;
+    top: 7%;
+    left: 30%;
+    scale: 70%;
+}
+
+
+.nums {
+    width: auto;
+    height: auto;
+    font-size: 300%;
+    color: #008DB9;
+}
+
+.orange_bottom {
+    color: orange;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+#xtra_bottom {
+    position: absolute;
+    top:240%;
+    width: 100%;
+    height: 10%;
+    background-color: #ff9638;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#xbottom_text_left {
+    text-transform: uppercase;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#xbottom_text_right {
+    text-transform: uppercase;
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+}

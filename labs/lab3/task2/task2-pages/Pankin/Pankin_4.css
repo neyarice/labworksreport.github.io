@@ -1,0 +1,45 @@
+.out_container {
+    margin: 0px auto;
+    width: 55%;
+    height: 900px;
+    border: solid 1px black;
+}
+
+#top {
+    position: relative;
+    border: solid 1px black;
+    width: 100%;
+    height: 15%;
+    background-color: orange;
+}
+
+#top_s {
+    position: relative;
+    background-color: white;
+    width: 35%;
+    border: solid 1px black;
+    height: 40%;
+    top: 25%;
+    left: 5%;    
+}
+
+#middle {
+    height: 70%;
+    width: 100.2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_middle {
+    width: 23%;
+    height: 100%;
+    border: solid 1px black;
+}
+
+#bottom {
+    position: relative;
+    border: solid 1px black;
+    width: 100%;
+    height: 15%;
+    background-color: orange;
+}
