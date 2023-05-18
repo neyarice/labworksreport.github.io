@@ -65,9 +65,32 @@
     </ul>
 </div>
 
-<div class="labs_field_for_info">
+<div class="labs_field_for_info" style="overflow: auto;">
     <p>
-        Some text
+        <img src="task1.jpg">
+        <p>Скрипт: </p>
+        <pre>
+            var arr = [1, 2, 3, 4, 5];
+            console.log(arr)
+
+            function arraySum(array){
+            var sum = 0;
+            for(var i = 1; i < (array.length - 1); i++){
+                sum += array[i];
+                }
+            console.log(sum);
+            }
+            arraySum(arr);
+
+            // Варіант 6, Завдання 2
+            var arr = [5, 2, 1, 4, 3];
+            console.log(arr)
+
+            arr.sort(function(a, b) {
+            return a - b;
+            });
+            console.log(arr);
+        </pre>
     </p>
 </div>
 
