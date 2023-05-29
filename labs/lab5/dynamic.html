@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/lab5.css">
+    <title>Lab Works</title>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../../js/lab5/slider.js"></script>
+</head>
+<body>
+<div id="container_mainpage_default_name">
+    <p style="font-size: 1.4vw; font-weight: bold;">
+        ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ<br>
+        З ДИСЦИПЛИНИ "WEB-ОРІЄНТОВНІ ТЕХНОЛОГІЇ.<br>
+        ОСНОВИ FRONTEND та BACKEND РОЗРОБОК"
+    </p>
+    <p style="font-size: 1.1vw; font-weight: bold;">
+        БРИГАДА №18
+    </p>
+    <p style="font-size: 1.1vw;font-weight: bold">
+        Cтуденти гр. ІО-06:  Вигівський Нікіта, Панкін Владислав, Яровий Олександр
+    </p>
+</div>
+
+<div id="container_mainpage_default_lab_links">
+    <a class="lablinks" href="../../labs/lab1.html">Лабораторна<br>робота 1</a>
+    <a class="lablinks" href="../lab2.html">Лабораторна<br>робота 2</a>
+    <a class="lablinks" href="../../labs/lab3.html">Лабораторна<br>робота 3</a>
+    <a class="lablinks" href="../../labs/lab4.html">Лабораторна<br>робота 4</a>
+    <a class="pressedlablinks" href="../../labs/lab5.html">Лабораторна<br>робота 5</a>
+    <a class="lablinks" href="../../labs/lab1.html">Лабораторна<br>робота 6</a>
+    <a class="lablinks" href="../../labs/lab1.html">Лабораторна<br>робота 7</a>
+    <a class="lablinks" href="../../labs/lab1.html">Лабораторна<br>робота 8</a>
+    <a class="lablinks" href="../../labs/lab1.html">Лабораторна<br>робота 9</a>
+</div>
+
+<div id="container_lab1_items">
+    <ul class="labs_items_list">
+        <li>
+            <a class="item_links" href="./theme.html">Тема й мета.<br> Постановка задачі.</a>
+        </li>
+        <li>
+            <a class="item_pressed_links" href="">Динамічні елементи 3 пункту</a>
+        </li>
+        <li>
+            <a class="item_links" href="./gallery.html">Галерея UniteGallery</a>
+        </li>
+        <li>
+            <a class="item_links" href="./informers.html">Інформери</a>
+        </li>
+        <li>
+            <a class="item_links" href="./vys.html">Висновки</a>
+        </li>
+    </ul>
+</div>
+
+<div class="labs_field_for_info" style="overflow: auto;">
+    
+    <p style="margin-bottom: 2%;">Слайдер: </p>
+
+    <div id="slider"></div>
+    <input type="text" id="selectedValue" style="border: 0px; font-size: 24px;" readonly>
+    <br>
+    <p style="margin-top: 3%; margin-bottom: 2%;">Випадаюче меню:</p>
+    <button id="menu-toggle" style="border: 0px; font-size: 24px; margin-left: 3%;">Меню</button>
+    <ul id="menu" style="display: none;">
+    <li style="list-style-type: none;"><a href="#" style="text-decoration: none;">Пункт 1</a></li>
+    <li style="list-style-type: none;"><a href="#" style="text-decoration: none;">Пункт 2</a></li>
+    <li style="list-style-type: none;"><a href="#" style="text-decoration: none;">Пункт 3</a></li>
+    </ul>
+    <br>
+    <br>
+    <label for="datepicker" style="margin-top: 2%;">Оберіть дату:</label>
+    <input type="text" id="datepicker">
+</div>
+</body>
+
+</html>

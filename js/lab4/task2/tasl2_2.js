@@ -46,8 +46,8 @@ let textInput = document.getElementById("textInput");
           formattedText = "<u>" + formattedText + "</u>";
           break;
         case "color":
-          let color = colorInput.value;
-          formattedText = "<span style='color:" + color + "'>" + formattedText + "</span>";
+         
+          formattedText = "<spa let color = colorInput.value;n style='color:" + color + "'>" + formattedText + "</span>";
           break;
         case "uppercase":
           if (uppercaseCheckbox.checked) {

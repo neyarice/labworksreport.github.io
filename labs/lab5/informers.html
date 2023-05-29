@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/lab3.css">
+    <link rel="stylesheet" href="../../css/lab5.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" integrity="sha512-XkGDF5m5fOZ7LyMjksM8G8pgCZd7S6F4W7b9ezMlydPkgCWeSnzV+1pvOs93yFdA2Nv/7v+s2/cL6L0GgAcpvg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../../js/lab5/informers.js"></script>
     <title>Lab Works</title>
 </head>
 <body>
@@ -25,9 +29,9 @@
 <div id="container_mainpage_default_lab_links">
     <a class="lablinks" href="../../labs/lab1.html">Лабораторна<br>робота 1</a>
     <a class="lablinks" href="../lab2.html">Лабораторна<br>робота 2</a>
-    <a class="pressedlablinks" href="../../labs/lab3.html">Лабораторна<br>робота 3</a>
+    <a class="lablinks" href="../../labs/lab3.html">Лабораторна<br>робота 3</a>
     <a class="lablinks" href="../../labs/lab4.html">Лабораторна<br>робота 4</a>
-    <a class="lablinks" href="../../labs/lab5.html">Лабораторна<br>робота 5</a>
+    <a class="pressedlablinks" href="../../labs/lab5.html">Лабораторна<br>робота 5</a>
     <a class="lablinks" href="../../labs/lab1.html">Лабораторна<br>робота 6</a>
     <a class="lablinks" href="../../labs/lab1.html">Лабораторна<br>робота 7</a>
     <a class="lablinks" href="../../labs/lab1.html">Лабораторна<br>робота 8</a>
@@ -37,29 +41,42 @@
 <div id="container_lab1_items">
     <ul class="labs_items_list">
         <li>
-            <a class="item_links" href="./lab3_theme.html">Тема й мета. Місце розташування сайту</a>
+            <a class="item_links" href="./theme.html">Тема й мета.<br> Постановка задачі.</a>
         </li>
         <li>
-            <a class="item_links" href="./lab3_task1.html">Завдання 1</a>
+            <a class="item_links" href="./dynamic.html">Динамічні елементи 3 пункту</a>
         </li>
         <li>
-            <a class="item_links" href="./lab3_task2.html">Завдання 2</a>
+            <a class="item_links" href="./gallery.html">Галерея UniteGallery</a>
         </li>
         <li>
-            <a class="item_links" href="./lab3_task3.html">Завдання 3</a>
+            <a class="item_pressed_links" href="">Інформери</a>
         </li>
         <li>
-            <a class="item_pressed_links" href="./lab3_vys.html">Висновки</a>
+            <a class="item_links" href="./vys.html">Висновки</a>
         </li>
     </ul>
 </div>
 
-<div class="labs_field_for_info">
-    <p>
-        В ході виконання практичної роботи придбали практичні навички роботи верстки сторінок засобами CSS, верстки на
-        основі плаваючих елементів, з’ясувати переваги та недоліки типів макетів веб-сторінок, а 
-        також навички роботи верстки сторінок засобами CSS та FLEXBOX<br>
-    </p>
+<div class="labs_field_for_info" style="overflow: auto; display: flex; justify-content: space-around;">
+    
+    <div id="weather">
+        <h4>Погода в Київі</h4>
+        <img id="weather-icon" src="" alt="Іконка погоди" style="float: left;">
+        <p id="temperature" style="padding-top: 30px;"></p>
+        
+    </div>
+
+    <div id="time">
+        <h4>Час в Київі</h4>
+        <p id="current-time"></p>
+    </div>
+
+    <div id="exchange-rate">
+        <h4>Курс долара до гривні</h4>
+        <p id="currency"></p>
+    </div>
+
 </div>
 </body>
 </html>
